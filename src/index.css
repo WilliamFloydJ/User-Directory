@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(44, 44, 44);
+}
+#Header {
+  background-color: rgb(0, 174, 255);
+  color: rgb(44, 44, 44);
+  margin: 0;
+  height: 7em;
+  display: flex;
+  align-items: center;
+}
+#Header h2 {
+  margin-left: 3vw;
+}
+h1 {
+  font-size: 35px;
+  text-decoration: underline rgb(0, 174, 255);
+  margin-top: 0;
+}
+.arrayH1 {
+  text-decoration: none;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: 00.5em;
+  margin-right: 0.5em;
+}
+.UserDisplay {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3em;
+  margin-bottom: 0;
+  min-height: fit-content;
+  background-color: white;
+  color: rgb(44, 44, 44);
+}
+.UserDisplay article {
+  margin: 4em;
+}
+nav {
+  margin-left: 3em;
+  margin-right: 3em;
+  display: flex;
+  margin-top: 1.5em;
+}
+.flex-start {
+  margin-right: auto;
+  text-align: left;
+}
+.flex-end {
+  margin-left: auto;
+  text-align: right;
+}
+nav button {
+  font-size: 2vw;
+  font-weight: 900;
+  padding: 0;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ol li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+li > * {
+  margin: 0;
+  font-weight: 600;
+}
+ul {
+  padding: 0;
+}
